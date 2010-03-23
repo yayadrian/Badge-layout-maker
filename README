@@ -1,0 +1,15 @@
+Badge Layout maker
+===================
+A quick little hack to layout badge images onto an A4 page.
+
+Uses fPDF to do the magic PDF creation http://www.fpdf.org/
+
+** VERY EXPERIMENTAL ** 
+This is my first quick hack to see if this will make the layout any quicker than Photoshop for 100s of badges.
+
+To use:
+0. Set your configs as you see fit in /-/config.php
+1. Load all of the images into the folder defined in config.php - IMAGEFOLDER
+2. Load up PDFcreator.php in your favourite web browser
+3. Make a cup of tea
+4. Look for your newly created in the path defined in config.php e.g. OUTPUTFOLDER/OUTPUTNAME
